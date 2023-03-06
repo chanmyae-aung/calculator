@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="row mt-5 mb-2">
+          <div class="col-6">
+            <h4>calc</h4>
+          </div>
+          <div class="col-6">
+            <div class="form-switch form-check float-end">
+              <label class="form-check-label" for="flexSwitchCheckChecked"
+                >THEME</label
+              >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <h1
+              class="pb-0 bg-light rounded text-end display"
+            ></h1>
+          </div>
+        </div>
+        <div id="buttons" class="text-center bg-secondary rounded">
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">7</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">8</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">9</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3 number">+</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">4</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">5</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">6</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3 number">-</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">1</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">2</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">3</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3 number">/</button>
+          <button class="btn btn-lg number btn-light px-5 mx-2 my-3">0</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3 number">.</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3" id="result">=</button>
+          <button class="btn btn-lg btn-light px-5 mx-2 my-3 number">*</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

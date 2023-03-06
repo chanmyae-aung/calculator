@@ -1,0 +1,19 @@
+
+
+$primary : red;
+
+$container-max-widths: (
+  xl: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1320px
+);
+
+
+#app{
+  width: 375px;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+
+
